@@ -26,3 +26,5 @@ GalaxyModel10: Same as GalaxyModel9, but with a rotation curve model I fit mysel
 GalaxyModel11 and GalaxyModel12: Both are unsuccessful attempts to patch the two regimes of the URC (vMax > and < 70 km/s) together using Courteau's tan^-1 model of rotation curves.
 
 GalaxyModel13: Same as GalaxyModel4 except the stellar mass density now follows a Sersic, rather than exponential, profile radially. This model works as well as GalaxyModel4 except the user must choose the Sersic index. 
+
+Tester: This class contains the main method I used for running my models. It is completely customised to me and my computer. If other people want to run my models they should ideally write their own main method. At the very least, all the path names will need to be adjusted to reflect the location of files on the user's directory.
