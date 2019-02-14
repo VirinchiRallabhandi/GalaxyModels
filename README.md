@@ -1,7 +1,7 @@
 # GalaxyModels
 This repository contains code from my studentship at the International Centre for Radio Astronomy Research (ICRAR) in 2018/2019. My project, supervised by Professor Gerhardt Meurer involved building template galaxies based upon the "constant stability disk" or "constant Q" model. The hope was the constant stability disk model could be the physical basis underlying the mass discrepancy acceleration relation (MDAR). While this proved misguided, my implementation of the constant Q model is still valid and I'm able to present some very well calibrated Java code for building and exploring typical galaxies. I've also included my project report which explains the astrophysics behind these models and presents the results of my studentship.
 
-I have 13 models available overall. All 13 implement the GalaxyModel interface I've provided. Whenever there are stars and gas in the galaxy, it is assumed the gas distribution responds to the stellar disk to maintain constant Q. The models' salient features are
+I have 13 models available overall. All 13 implement the GalaxyModel.java interface I've provided. Whenever there are stars and gas in the galaxy, it is assumed the gas distribution responds to the stellar disk to maintain constant Q. The models' salient features are
 
 GalaxyModel1: 2D pure exponential stellar disk and 2D gas disk, uses Hubble type to calibrate luminosity and the universal rotation curve (URC)
 
